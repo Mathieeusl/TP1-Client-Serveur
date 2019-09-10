@@ -18,5 +18,10 @@ namespace Cryptographie
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+       static public void Afficher_resultat(String message)
+       {
+            Console.Write(message);
+       }
     }
 }
